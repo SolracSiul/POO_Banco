@@ -1,0 +1,20 @@
+package com.project.poo.Lista.Utils;
+
+import java.io.File;
+
+public class Cadastrar {
+	
+	public void CreateFile(String url) {
+		try {
+			File arquivo = new File(url);
+			arquivo.createNewFile();
+		}catch(Exception e) {
+			System.out.println("Erro");
+		}
+	}
+	
+	public List<String> VerifyRow(Stgring url){
+		List<String> result = new ArrayList<String>();
+		
+	}
+}

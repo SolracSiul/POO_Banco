@@ -1,0 +1,13 @@
+package com.project.poo.Lista;
+
+import java.util.Properties;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		Properties prop = new Properties();
+		FileOutputStream fos = new FileOutputStream("class.properties");
+		
+	}
+
+}

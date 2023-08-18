@@ -1,0 +1,15 @@
+package com.project.poo.Lista;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.project.poo.Lista.Utils.Pessoa;
+
+public class Ex004 {
+
+	public static void main(String[] args) {
+		List<Pessoa> pessoas = new ArrayList<>();
+
+	}
+
+}

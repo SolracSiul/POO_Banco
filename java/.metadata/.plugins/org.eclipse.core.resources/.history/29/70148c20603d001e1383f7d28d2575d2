@@ -1,0 +1,10 @@
+package com.project.poo.Lista.Utils;
+
+public class CsvPessoa {
+	private String nome;
+	private Integer idade;
+	private String email;
+	
+	
+
+}

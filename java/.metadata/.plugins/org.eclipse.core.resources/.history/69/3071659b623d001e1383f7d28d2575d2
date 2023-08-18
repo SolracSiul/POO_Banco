@@ -1,0 +1,21 @@
+package com.project.poo.Lista;
+
+import java.io.BufferedWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.project.poo.Lista.Utils.Pessoa;
+
+public class Ex004 {
+
+	public static void main(String[] args) {
+		List<Pessoa> pessoas = new ArrayList<>();
+		pessoas.add(new Pessoa("luis", 22, "email@email.com"));
+		pessoas.add(new Pessoa("hiandra", 22, "halves@email.com"));
+		
+		BufferedWriter writer = Files.newBufferedWriter(Paths.get("pessoas.csv"));
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.project.poo.Lista.Utils;
+
+public class Pessoa {
+	private String nome;
+	private Integer idade;
+	private String email;
+}

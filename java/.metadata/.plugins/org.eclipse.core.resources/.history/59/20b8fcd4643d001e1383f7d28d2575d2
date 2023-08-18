@@ -1,0 +1,16 @@
+package com.project.poo.Lista;
+
+import java.io.IOException;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+
+public class Ex005 {
+
+	public static void main(String[] args) throws IOException {
+		Document doc = Jsoup.connect("https://pt.wikipedia.org/wiki/Fluminense_Football_Club").get();
+		System.out.println(doc);
+
+	}
+
+}

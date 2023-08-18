@@ -1,0 +1,10 @@
+package com.project.poo.Lista;
+
+public class Ex004 {
+
+	public static void main(String[] args) {
+		List<Pessoa> pessoas = new ArrayList<>();
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.project.poo.Lista;
+
+import org.jsoup.Jsoup;
+
+public class Ex005 {
+
+	public static void main(String[] args) {
+		Document doc = Jsoup.connect("https://pt.wikipedia.org/wiki/Fluminense_Football_Club").get();
+
+	}
+
+}
