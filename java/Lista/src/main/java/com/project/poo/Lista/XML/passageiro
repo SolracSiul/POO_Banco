@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<passageiros>
+  <passageiro>
+    <nome>Maria Clara</nome>
+    <idade>10</idade>
+    <numero_ticket>001</numero_ticket>
+    <origem>Campina Grande </origem>
+    <destino>Queimadas</destino>
+  </passageiro>
+  
+  <passageiro>
+    <nome>Maria Elizabeth</nome>
+    <idade>11</idade>
+    <numero_ticket>002</numero_ticket>
+    <origem>Campina Grande </origem>
+    <destino>Joao Pessoa</destino>
+  </passageiro>
+  
+  <passageiro>
+    <nome>Maria Joaquina</nome>
+    <idade>12</idade>
+    <numero_ticket>003</numero_ticket>
+    <origem>Campina Grande </origem>
+    <destino>Areia</destino>
+  </passageiro>
+  
+   <passageiro>
+    <nome>Maria Robertina</nome>
+    <idade>13</idade>
+    <numero_ticket>004</numero_ticket>
+    <origem>Campina Grande </origem>
+    <destino>Cuité</destino>
+  </passageiro>
+  
+   <passageiro>
+    <nome>Maria Laura</nome>
+    <idade>14</idade>
+    <numero_ticket>005</numero_ticket>
+    <origem>Campina Grande </origem>
+    <destino>Sapé</destino>
+  </passageiro>
+  
+</passageiros>
