@@ -1,0 +1,68 @@
+EXERCICIO 3
+
+4 - db.Aluno.updateOne(
+  { "aluno": "Sofia" }, 
+  {
+    $set: {
+      "sobrenome": "Rodrigues ", 
+      "endereco": { "rua": "rua 01", "num": 123 } 
+    }
+  }
+)
+
+
+
+
+4 - db.Aluno.updateOne(
+  { "aluno": "Luis" }, 
+  {
+    $set: {
+      "sobrenome": "Rodrigues", 
+      "endereco": { "rua": "rua 01", "num": 123 } 
+    }
+  }
+)
+
+
+
+
+5 - db.Aluno.find({"idade": {$gt:25}}, {"_id": 0})
+
+
+
+6 - db.Aluno.aggregate([{$group:{_id:"$cidade", media: {$avg: "$idade"}}}])
+
+
+
+7 - db.setores.insertMany([
+  {
+    sigla: "TI",
+    descricao: "Tecnologia da Informação",
+    salario: 60000
+  },
+  {
+    sigla: "RH",
+    descricao: "Recursos Humanos",
+    salario: 45000
+  },
+  {
+    sigla: "VENDAS",
+    descricao: "Vendas e Marketing",
+    salario: 55000
+  },
+  {
+    sigla: "FIN",
+    descricao: "Financeiro",
+    salario: 70000
+  }
+])
+
+
+8 - db.setores.aggregate([{$sort: {salario:1}},{$limit:1}])
+
+
+9 - db.setores.aggregate([{$sort: {salario:-1}},{$limit:1}])
+
+
+
+10 - db.setores.aggregate([{$group:{_id:null, media: {$avg:"$salario"}}}])
